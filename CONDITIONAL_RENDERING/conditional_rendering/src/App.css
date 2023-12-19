@@ -1,0 +1,65 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(243, 243, 243);
+  border-radius: 20px;
+  color: black;
+  box-shadow: 10px 10px 8px 10px #d7d7d7;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.login-btn {
+  background-image: linear-gradient(to right, rgb(22, 126, 45) , rgba(15, 102, 34, 0.867));
+  border-radius: 25px;
+  color: white;
+  width: 70%;
+  border-style: none;
+  margin-top: 5%;
+}
+
+.logoff-btn {
+  background-image: linear-gradient(to right, rgb(154, 9, 9) , rgb(107, 17, 21));
+  width: 25%;
+  border-radius: 20px;
+  color: white;
+  margin-top: 3%;
+  width: 70%;
+  border-style: none;
+}
